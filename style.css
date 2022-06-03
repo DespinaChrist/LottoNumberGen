@@ -1,0 +1,58 @@
+body {
+    background-color:#DDDAF2;
+}
+
+header {
+    text-align:center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+main {
+    background-color: white;
+    text-align:center;
+    border-style:solid;
+    border-radius: 15px;
+}
+
+.number {
+    margin: 30px;
+    font-family:Roboto;
+    font-size: 70px;
+    color:#F4BF13;
+    border-style:solid;
+    border-radius: 40%;
+    
+}
+
+.bonusNumber, main > b{
+    color:#76468C;
+}
+
+#genButton {
+    margin-top:30px;
+    background-color: black;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor:grab;
+}
+
+footer {
+    font-family:Roboto;
+
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
