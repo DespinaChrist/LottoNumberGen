@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Roboto", Sans-Serif;
+    src: local(), url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+}
+
+html {
+    font-size: 16px;
+}
+
 body {
     background-color:#DDDAF2;
 }
@@ -14,19 +23,16 @@ header {
 
 main {
     background-color: white;
-    text-align:center;
-    border-style:solid;
+    text-align: center;
+    border-style: solid;
     border-radius: 15px;
 }
 
 .number {
     margin: 30px;
-    font-family:Roboto;
-    font-size: 70px;
-    color:#F4BF13;
-    border-style:solid;
-    border-radius: 40%;
-    
+    font-family: "Roboto";
+    font-size: 4rem;
+    color:#F4BF13;  
 }
 
 .bonusNumber, main > b{
@@ -34,21 +40,21 @@ main {
 }
 
 #genButton {
-    margin-top:30px;
     background-color: black;
     color:white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     font-weight:bold;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.5rem;
     border-radius: 15px;
-    cursor:grab;
+    margin-top: 30px;
+    padding: 15px 32px;
+    cursor:pointer;
 }
 
 footer {
-    font-family:Roboto;
+    font-family: "Roboto";
 
 }
 
