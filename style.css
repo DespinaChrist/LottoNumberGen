@@ -2,6 +2,10 @@
     font-family: "Roboto", Sans-Serif;
     src: local(), url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 }
+@font-face {
+    font-family: "Roboto-Mono", Sans-Serif;
+    src: local(), url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+}
 
 html {
     font-size: 16px;
@@ -30,7 +34,7 @@ main {
 
 .number {
     margin: 30px;
-    font-family: "Roboto";
+    font-family: "Roboto-Mono";
     font-size: 4rem;
     color:#F4BF13;  
 }
